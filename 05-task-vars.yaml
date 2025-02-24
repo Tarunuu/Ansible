@@ -10,7 +10,7 @@
       msg: "Hello! Strengthening the fundamentals of {{COURSE}} through practice and hands-on learning in a {{DURATION}} course, guided by Trainer {{TRAINER}}"
 
   - name: print the information
-    vars: #task level variables
+    vars: #task level variables override play level
       COURSE: "Ansible"
     ansible.builtin.debug:
       msg: "Hello! Strengthening the fundamentals of {{COURSE}} through practice and hands-on learning in a {{DURATION}} course, guided by Trainer {{TRAINER}}"
