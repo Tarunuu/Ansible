@@ -2,6 +2,7 @@
   hosts: web
   tasks:
   become: yes #take sudo access
+  tasks:
   - name: install nginx
     ansible.builtin.package: #heterogenous module that can work for all distributions
       name: nginx
