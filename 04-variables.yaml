@@ -7,4 +7,4 @@
   tasks:
   - name: print the information
     ansible.builtin.debug:
-      msg: "Hello! Strengthening the fundamentals of {{COURSE}}, through practice and hands-on learning in a {{DURATION}}, course, guided by Trainer: {{TRAINER}}"
+      msg: "Hello! Strengthening the fundamentals of {{COURSE}} through practice and hands-on learning in a {{DURATION}} course, guided by Trainer {{TRAINER}}"
