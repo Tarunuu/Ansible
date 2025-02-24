@@ -3,4 +3,4 @@
   tasks:
   - name: print the information
     ansible.builtin.debug:
-      msg: "Hello, practising, revising and making the basics strong, Devops with AWS, My Trainer is Siva"
+      msg: "Hello! Strengthening the fundamentals of DevOps with AWS through practice, revision, and hands-on learning in a 120-hour course, guided by Trainer Sivakumar."
