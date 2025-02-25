@@ -6,10 +6,10 @@
     TRAINER: "Sivakumar"
   # vars_files:
   # - vars.yaml
-  vars_prompt:
-  - name: COURSE
-    prompt: Please enter the course name
-    private: false # not confidential
+  # vars_prompt:
+  # - name: COURSE
+  #   prompt: Please enter the course name
+  #   private: false # not confidential
   tasks:
   - name: print the information
     vars:
@@ -22,3 +22,4 @@
 #1 first preference is always command line/args
 #2 Task level
 #3 Files
+#4 Prompt
