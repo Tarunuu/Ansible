@@ -1,9 +1,9 @@
 - name: variables to print
   hosts: web
-  vars: #play level, all tasks in this play have access to this
-    COURSE: "DevOps with AWS from PLAY level"
-    DURATION: "120HRS"
-    TRAINER: "Sivakumar"
+  # vars: #play level, all tasks in this play have access to this
+  #   COURSE: "DevOps with AWS from PLAY level"
+  #   DURATION: "120HRS"
+  #   TRAINER: "Sivakumar"
   # vars_files:
   # - vars.yaml
   # vars_prompt:
@@ -23,3 +23,4 @@
 #2 Task level
 #3 Files
 #4 Prompt
+#5 Play level
