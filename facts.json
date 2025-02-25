@@ -1,0 +1,200 @@
+{
+    "devices": {
+      "nvme0n1": {
+        "rotational": "0",
+        "scheduler_mode": "none",
+        "size": "20.00 GB",
+        "host": "Non-Volatile memory controller: Amazon.com, Inc. NVMe EBS Controller",
+        "sectors": "41943040",
+        "sectorsize": "512",
+        "uuid": null,
+        "holders": []
+      },
+      "nvme0n1p1": {
+        "links": {
+          "ids": [
+            "nvme-Amazon_Elastic_Block_Store_vol0d39877ea91b50203-part1",
+            "nvme-Amazon_Elastic_Block_Store_vol0d39877ea91b50203_1-part1",
+            "nvme-nvme.1d0f-766f6c3064333938373765613931623530323033-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1"
+          ],
+          "uuids": ["230e0624-8e35-4e9d-9dd8-01cd4f7dad3a"],
+          "labels": ["boot_disk"],
+          "masters": []
+        },
+        "start": "2048",
+        "sectors": "1024000",
+        "sectorsize": "512",
+        "size": "500.00 MB",
+        "uuid": "230e0624-8e35-4e9d-9dd8-01cd4f7dad3a",
+        "holders": []
+      },
+      "nvme0n1p2": {
+        "links": {
+          "ids": [
+            "nvme-Amazon_Elastic_Block_Store_vol0d39877ea91b50203-part2",
+            "nvme-Amazon_Elastic_Block_Store_vol0d39877ea91b50203_1-part2",
+            "nvme-nvme.1d0f-766f6c3064333938373765613931623530323033-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part2"
+          ],
+          "uuids": ["26D2-298A"],
+          "labels": ["UEFI_DISK"],
+          "masters": []
+        },
+        "start": "4096",
+        "sectors": "249856",
+        "sectorsize": "512",
+        "size": "122.00 MB",
+        "uuid": "26D2-298A",
+        "holders": []
+      },
+      "nvme0n1p3": {
+        "links": {
+          "ids": [
+            "nvme-Amazon_Elastic_Block_Store_vol0d39877ea91b50203-part3",
+            "nvme-Amazon_Elastic_Block_Store_vol0d39877ea91b50203_1-part3",
+            "nvme-nvme.1d0f-766f6c3064333938373765613931623530323033-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part3"
+          ],
+          "uuids": ["230e0624-8e35-4e9d-9dd8-01cd4f7dad3a"],
+          "labels": ["boot_disk"],
+          "masters": []
+        },
+        "start": "6144",
+        "sectors": "249856",
+        "sectorsize": "512",
+        "size": "122.00 MB",
+        "uuid": "230e0624-8e35-4e9d-9dd8-01cd4f7dad3a",
+        "holders": []
+      },
+      "dm-0": {
+        "virtual": 1,
+        "links": {
+          "ids": [
+            "dm-name-RootVG-rootVol",
+            "dm-uuid-LVM-Z6QgcgIhlttJ2W2P4WDEGMjoYvUaYdkiRfBbcZPUjz51qbr1L4VaRecbNT7UI5oa"
+          ],
+          "uuids": ["1290fb9a-d62d-48f0-b048-5a59aa4703fc"],
+          "masters": []
+        },
+        "vendor": null,
+        "model": null,
+        "sas_address": null,
+        "sas_device_handle": null,
+        "removable": "0",
+        "support_discard": "0",
+        "partitions": {},
+        "rotational": "0",
+        "scheduler_mode": "",
+        "sectors": "12582912",
+        "sectorsize": "512",
+        "size": "6.00 GB",
+        "host": "",
+        "holders": []
+      },
+      "dm-1": {
+        "virtual": 1,
+        "links": {
+          "ids": [
+            "dm-name-RootVG-swapVol",
+            "dm-uuid-LVM-Z6QgcgIhlttJ2W2P4WDEGMjoYvUaYdkiZM14AD6yOT1b0y5lHDo42m8NLDSELleS"
+          ],
+          "uuids": ["687a0b66-df29-4849-8ecb-b0a16dad755f"],
+          "masters": []
+        },
+        "vendor": null,
+        "model": null,
+        "sas_address": null,
+        "sas_device_handle": null,
+        "removable": "0",
+        "support_discard": "0",
+        "partitions": {},
+        "rotational": "0",
+        "scheduler_mode": "",
+        "sectors": "4194304",
+        "sectorsize": "512",
+        "size": "2.00 GB",
+        "host": "",
+        "holders": []
+      }
+    },
+    "lvm": {
+      "lvs": {
+        "auditVol": {
+          "size_g": "4.40",
+          "vg": "RootVG"
+        },
+        "homeVol": {
+          "size_g": "1.00",
+          "vg": "RootVG"
+        },
+        "logVol": {
+          "size_g": "2.00",
+          "vg": "RootVG"
+        },
+        "rootVol": {
+          "size_g": "6.00",
+          "vg": "RootVG"
+        },
+        "swapVol": {
+          "size_g": "2.00",
+          "vg": "RootVG"
+        },
+        "varTmpVol": {
+          "size_g": "2.00",
+          "vg": "RootVG"
+        },
+        "varVol": {
+          "size_g": "2.00",
+          "vg": "RootVG"
+        }
+      },
+      "vgs": {
+        "RootVG": {
+          "size_g": "19.40",
+          "free_g": "0",
+          "num_lvs": "7",
+          "num_pvs": "1"
+        }
+      },
+      "pvs": {
+        "/dev/nvme0n1p4": {
+          "size_g": "19.40",
+          "free_g": "0",
+          "vg": "RootVG"
+        }
+      }
+    },
+    "mounts": [
+      {
+        "mount": "/",
+        "device": "/dev/mapper/RootVG-rootVol",
+        "fstype": "xfs",
+        "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
+        "size_total": 6375342080,
+        "size_available": 4501807104,
+        "block_size": 4096,
+        "block_total": 1556480,
+        "block_available": 1099074,
+        "block_used": 457406,
+        "inode_total": 3145728,
+        "inode_available": 3089947,
+        "inode_used": 55781,
+        "uuid": "1290fb9a-d62d-48f0-b048-5a59aa4703fc"
+      },
+      {
+        "mount": "/home",
+        "device": "/dev/mapper/RootVG-homeVol",
+        "fstype": "xfs",
+        "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
+        "size_total": 1006632960,
+        "size_available": 965054464,
+        "block_size": 4096,
+        "block_total": 245760,
+        "block_available": 235609,
+        "block_used": 10151,
+        "inode_total": 524288,
+        "inode_available": 524265,
+        "inode_used": 23,
+        "uuid": "a6bea37c-c37d-4aaf-a23e-4e8e43ac4be1"
+      }
+    ]
+  }
+  
