@@ -1,6 +1,6 @@
 - name: create user
   hosts: web
-  becomes: yes
+  become: yes
   tasks:
   - name: check user exits or not
     ansible.builtin.command: id expense
@@ -8,4 +8,4 @@
   
   - name: prin the user information
     ansible.builtin.debug:
-      msg: " user info: {{ USER }}"
+      msg: "user info: {{ USER }}"
