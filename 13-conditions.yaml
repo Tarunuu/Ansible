@@ -12,5 +12,5 @@
       msg: "user info: {{ USER }}"
 
   - name: create user
-    anisble.builtin.command: id expense
+    anisble.builtin.command: useradd expense
     when: USER.rc != 0
