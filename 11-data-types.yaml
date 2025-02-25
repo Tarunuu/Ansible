@@ -20,6 +20,6 @@
       - IAM
       - S3
   tasks:
-    - name: print the course infromation
-      ansbile.builtin.debug:
-        msg: "Hi, I am learning {{COURSE}}, with duration {{duration}} topics are: {{topics}} and live {{live}} tools are {{tools}}"
+  - name: print the course infromation
+    ansbile.builtin.debug:
+      msg: "Hi, I am learning {{COURSE}}, with duration {{duration}} topics are: {{topics}} and live {{live}} tools are {{tools}}"
