@@ -14,6 +14,6 @@
 
   - name: convert to lowercase
     vars:
-      greeting: "Hello NOBODY"
-      anisble.builtin.debug:
+      greeting: "HELLO NOBODY"
+    anisble.builtin.debug:
         msg: " {{ greeting | lower }}"
