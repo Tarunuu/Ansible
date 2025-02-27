@@ -16,4 +16,4 @@
     vars:
       greeting: "HELLO NOBODY"
     anisble.builtin.debug:
-        msg: " {{ greeting | lower }}"
+      msg: " {{ greeting | lower }}"
