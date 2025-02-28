@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    subnet_id: subnet-0b4202d06ed0b9211 # replace with your subnet id
+    subnet_id: subnet-0333f6e32a8410b47 # replace with your subnet id
     sg_id: "sg-0e3fb3093b1766e92"
     ami_id: "ami-09c813fb71547fc4f"
     instances:
@@ -13,7 +13,7 @@
   - name: create ec2 instance
     amazon.aws.ec2_instance:
       name: "{{ item }}"
-      vpc_subnet_id: "{{ subnet-id }}"
+      vpc_subnet_id: "{{ subnet_id }}"
       instance_type: "t2.micro"
       security_group: "{{ sg_id }}"
       image_id: "{{ ami_id }}"
