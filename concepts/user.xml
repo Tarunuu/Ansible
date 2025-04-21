@@ -1,0 +1,34 @@
+<Students>
+    <Student>
+        <Name>Tarunkumar</Name>
+        <Email>info@joindevops.com</Email>
+        <Address>
+            <PermAddress>
+                <AddressLine1>Sandysprings</AddressLine1>
+                <AddressLine2>MORGAN FALLS RD</AddressLine2>
+                <Street>Jefferson Street</Street>
+            </PermAddress>
+            <CurrentAddress>
+                <AddressLine1>Sandysprings</AddressLine1>
+                <AddressLine2>MORGAN FALLS RD</AddressLine2>
+                <Street>Jefferson Street</Street>
+          </CurrentAddress>
+        </Address>
+    </Student>
+    <Student>
+        <Name> Nobody</Name>
+        <Email>info@joindevops.com</Email>
+        <Address>
+            <PermAddress>
+                <AddressLine1>Sandysprings</AddressLine1>
+                <AddressLine2>MORGAN FALLS RD</AddressLine2>
+                <Street>Jefferson Street</Street>
+            </PermAddress>
+            <CurrentAddress>
+                <AddressLine1>Sandysprings</AddressLine1>
+                <AddressLine2>MORGAN FALLS RD</AddressLine2>
+                <Street>Jefferson Street</Street>
+          </CurrentAddress>
+        </Address>
+    </Student>
+</Students>

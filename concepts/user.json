@@ -1,0 +1,19 @@
+{
+
+    "name": "tarunkumar",
+    "email": "tarunbudiredla@gmail.com",
+    "address":
+    [
+        {
+            "type": "Perm",
+            "addressline1":"Jefferson street",
+            "addressline2":"Warrensburg"
+        },
+        {
+            "type": "Current",
+            "addressline1":"Jefferson street",
+            "addressline2":"Warrensburg"
+        }
+    ]
+
+}
